@@ -53,3 +53,10 @@ for(int i = 0; i < numbers.length; i++){
 }
    System.out.println(sum);
 
+
+// for each loop – for values only
+String[] cars = {"Volvo", "BMW", "Ford", "Mac"};
+for(String car : cars){
+   System.out.println(car);
+}
+
