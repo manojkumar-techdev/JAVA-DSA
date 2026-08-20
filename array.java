@@ -37,3 +37,9 @@ cars[4] = "BMW";
 System.out.println(cars[0]);
 
 
+// looping over an array – indexes and values
+String[] cars = {"Volvo", "BMW", "Ford", "Mac"};
+for(int i = 0; i < cars.length; i++){
+   System.out.println(cars[i]);
+}
+
