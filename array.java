@@ -19,3 +19,9 @@ cars[0] = "Tesla";
 System.out.println(cars[0]);
 
 
+// array length
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+
+
+
