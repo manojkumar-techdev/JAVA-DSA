@@ -43,3 +43,13 @@ for(int i = 0; i < cars.length; i++){
    System.out.println(cars[i]);
 }
 
+
+// calculating sum
+int[] numbers = {10, 5, 15, 15, 20, 30, 45};
+int sum = 0;
+
+for(int i = 0; i < numbers.length; i++){
+   sum += numbers[i];
+}
+   System.out.println(sum);
+
