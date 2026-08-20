@@ -60,3 +60,18 @@ for(String car : cars){
    System.out.println(car);
 }
 
+
+// calculate average
+int[] ages = {10, 15, 20, 5, 10};
+float avg = 0;
+float sum = 0;
+
+int length = ages.length;
+
+for(int age : ages){
+   sum += age;
+}
+
+avg = sum / length;
+System.out.println("Average is :" + avg);
+
