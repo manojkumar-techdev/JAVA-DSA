@@ -147,3 +147,17 @@ int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 // access elements
 int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 System.out.println(myNumbers[1][2]); 
+
+
+//  print multidimensional array
+// print multidimensional array
+int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+
+for (int i = 0; i < myNumbers.length; i++) {
+   for (int j = 0; j < myNumbers[i].length; j++) {
+      System.out.print(myNumbers[i][j] + " ");
+   }
+
+   System.out.println();
+}
+
