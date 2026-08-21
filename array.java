@@ -167,3 +167,10 @@ int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 myNumbers[1][2] = 9;
 System.out.println(myNumbers[1][2]);
 
+
+// row and column (lengths) in 2D array
+int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+
+System.out.println("Rows: " + myNumbers.length);             // 2
+System.out.println("Cols in row 0: " + myNumbers[0].length); // 3
+System.out.println("Cols in row 1: " + myNumbers[1].length); // 5
