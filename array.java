@@ -129,3 +129,11 @@ System.out.println(max);
 System.out.println(min);
 
 
+// for loop for index and element control
+// example - seat number and person sitting
+String[] seats = {"A", "B", "C", "D", "E"};
+
+for(int i = 0; i < seats.length; i++) {
+   System.out.println(i + " " + seats[i]);
+}
+
