@@ -161,3 +161,9 @@ for (int i = 0; i < myNumbers.length; i++) {
    System.out.println();
 }
 
+
+// change element in 2D Array
+int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+myNumbers[1][2] = 9;
+System.out.println(myNumbers[1][2]);
+
