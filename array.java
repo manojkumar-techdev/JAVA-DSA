@@ -144,12 +144,10 @@ int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 
 
 // access elements
-// access elements
 int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 System.out.println(myNumbers[1][2]); 
 
 
-//  print multidimensional array
 // print multidimensional array
 int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
 
