@@ -75,3 +75,19 @@ for(int age : ages){
 avg = sum / length;
 System.out.println("Average is :" + avg);
 
+
+// calculate lowest age
+   // find lowest age
+   int[] ages = {10, 15, 20, 5, 10};
+
+   // length of array
+   int length = ages.length;
+
+   // for lowest age and assign first element
+   int lowestAge = ages[0];
+
+   for(int age : ages){
+      if (lowestAge > age);
+      lowestAge = age;
+   }
+System.out.println(lowestAge);
