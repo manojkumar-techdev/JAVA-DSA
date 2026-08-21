@@ -137,3 +137,9 @@ for(int i = 0; i < seats.length; i++) {
    System.out.println(i + " " + seats[i]);
 }
 
+
+// declare multidimensional array
+// multidimensional array
+int[][] myNumbers = { {1, 4, 2}, {3, 6, 8} };
+
+
