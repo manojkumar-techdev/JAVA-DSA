@@ -108,3 +108,24 @@ for(int n : numbers){
    System.out.println(n);
 }
 
+
+// find min and max number in an array
+// min and max number
+// min and max number
+int[] numbers = {3, -1, 7, 0, 9};
+
+int max = numbers[0];
+int min = numbers[0];
+
+for(int n : numbers){
+   if (n > max) {
+      max = n;
+   }
+   if (n < min) {
+      min = n;
+   }
+}
+System.out.println(max);
+System.out.println(min);
+
+
