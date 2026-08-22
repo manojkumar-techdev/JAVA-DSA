@@ -305,6 +305,17 @@ for (int i = 0; i < marks.size(); i++) {
    System.out.println("Student " + (i + 1) + ": " + marks.get(i));
 }
 
+
+// adding specific element at index
+ArrayList<String> fruits = new ArrayList<>();
+fruits.add("Apple");
+fruits.add("Banana");
+fruits.add(1, "Mango");
+
+System.out.println(fruits.get(0));
+System.out.println(fruits.get(1));
+
+
 // Close the scanner
 sc.close();
 
