@@ -286,3 +286,25 @@ numbers.add(40);
 for (int i = 0; i < numbers.size(); i++) {
    System.out.println(i + ": " + numbers.get(i));
 
+
+// taking array input as list
+Scanner sc = new Scanner(System.in);
+
+// Step 1: Declare an ArrayList
+ArrayList<Integer> marks = new ArrayList<>();
+
+// Step 2: Take input for each element
+System.out.println("Enter marks of 5 students:");
+for (int i = 0; i < 5; i++) {
+   marks.add(sc.nextInt());
+}
+
+// Step 3: Print the entered marks
+System.out.println("You entered:");
+for (int i = 0; i < marks.size(); i++) {
+   System.out.println("Student " + (i + 1) + ": " + marks.get(i));
+}
+
+// Close the scanner
+sc.close();
+
