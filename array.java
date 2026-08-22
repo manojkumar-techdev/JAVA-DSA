@@ -212,3 +212,15 @@ System.out.println(Arrays.toString(arr));
    System.out.println("Fruits List: " + fruits);
 }
 
+
+// access element
+ArrayList<String> fruits = new ArrayList<>();
+
+// Add elements using the add() method
+fruits.add("Apple");
+fruits.add("Banana");
+fruits.add("Mango");
+
+// Print the ArrayList
+System.out.println(fruits.get(0));
+
