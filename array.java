@@ -172,3 +172,14 @@ int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
 System.out.println("Rows: " + myNumbers.length);             // 2
 System.out.println("Cols in row 0: " + myNumbers[0].length); // 3
 System.out.println("Cols in row 1: " + myNumbers[1].length); // 5
+
+
+// loop through multidimensional array
+int[][] myNumbers = { {1, 4, 2}, {3, 6, 8, 5, 2} };
+
+for (int row = 0; row < myNumbers.length; row++) {
+   for (int col = 0; col < myNumbers[row].length; col++) {
+      System.out.println("myNumbers[" + row + "][" + col + "] = " + myNumbers[row][col]);
+   }
+}
+
