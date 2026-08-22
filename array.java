@@ -224,3 +224,15 @@ fruits.add("Mango");
 // Print the ArrayList
 System.out.println(fruits.get(0));
 
+
+// update item/element
+// Add initial values to the ArrayList
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(5);
+numbers.add(10);
+
+// Update the second element (index 1)
+numbers.set(1, 99);
+
+// Print updated elements
+System.out.println("Updated second element: " + numbers.get(1));
