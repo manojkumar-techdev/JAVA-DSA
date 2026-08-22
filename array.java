@@ -262,3 +262,14 @@ System.out.println(marks.get(0));
 System.out.println(marks.get(1));
 System.out.println(marks.get(2));
 
+
+// ArrayList size method
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(1);
+numbers.add(2);
+
+// Use the size() method to get ArrayList size
+int listSize = numbers.size();
+
+// Print the number of elements
+System.out.println(listSize);
