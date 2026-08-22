@@ -193,3 +193,8 @@ for (int[] row : myNumbers) {
    }
 }
 
+
+// toString(arr) -- print array
+int[] arr = {10, 20, 30, 40, 50};
+System.out.println(Arrays.toString(arr));
+
