@@ -198,3 +198,17 @@ for (int[] row : myNumbers) {
 int[] arr = {10, 20, 30, 40, 50};
 System.out.println(Arrays.toString(arr));
 
+
+// create ArrayList
+   // Create an ArrayList to store fruits
+   ArrayList<String> fruits = new ArrayList<>();
+
+   // Add elements using the add() method
+   fruits.add("Apple");
+   fruits.add("Banana");
+   fruits.add("Mango");
+
+   // Print the ArrayList
+   System.out.println("Fruits List: " + fruits);
+}
+
