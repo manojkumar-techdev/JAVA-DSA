@@ -273,3 +273,16 @@ int listSize = numbers.size();
 
 // Print the number of elements
 System.out.println(listSize);
+
+
+// iterating over loop
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(10);
+numbers.add(20);
+numbers.add(30);
+numbers.add(40);
+
+// using a for loop
+for (int i = 0; i < numbers.size(); i++) {
+   System.out.println(i + ": " + numbers.get(i));
+
