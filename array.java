@@ -482,3 +482,9 @@ System.out.print(matrix[i][j] + " ");
 System.out.println(); // Move to the next line after printing
 a row
 }
+
+
+// total marks with 2D iteration
+Scanner scanner = new Scanner(System.in);
+// Step 1: Create a 3x3 integer 2D array
+int[][] marks = new int[3][3];
