@@ -401,3 +401,31 @@ System.out.println("Cart after clearing: " + cart);
 System.out.println("Number of items now: " +
 cart.size());
 System.out.println("Is cart empty? " + cart.isEmpty());
+
+
+// sorting array
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
+public class Main{
+public static void main(String[] args){
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(5);
+numbers.add(2);
+numbers.add(8);
+Collections.sort(numbers); // Now the list is [2, 5, 8]
+// Reverse order (Descending)
+Collections.sort(numbers, Collections.reverseOrder()); //
+Now the list is [8, 5, 2]
+// Example with strings:
+ArrayList<String> names = new ArrayList<>();
+names.add("John");
+names.add("Alice");
+names.add("Bob");
+Collections.sort(names); // Now the list is ["Alice",
+"Bob", "John"]
+// Reverse order (Descending)
+// Now the list is ["John", "Bob", "Alice"]
+Collections.sort(names, Collections.reverseOrder());
+}
+}
