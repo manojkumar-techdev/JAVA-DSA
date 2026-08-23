@@ -464,3 +464,21 @@ System.out.println("Matrix:");
 System.out.println(matrix[0][0] + " " + matrix[0][1]);
 System.out.println(matrix[1][0] + " " + matrix[1][1]);
 scanner.close();
+
+
+// iterating array with nested loop
+// Step 1: Declare and Initialize a 2D array
+int[][] matrix = {
+{10, 20, 30},
+{40, 50, 60},
+{70, 80, 90}
+};
+// Step 2: Iterate through the 2D array using nested loops
+System.out.println("2D Array Elements:");
+for (int i = 0; i < matrix.length; i++) { // Row iteration
+for (int j = 0; j < matrix[i].length; j++) { // Column iteration
+System.out.print(matrix[i][j] + " ");
+}
+System.out.println(); // Move to the next line after printing
+a row
+}
