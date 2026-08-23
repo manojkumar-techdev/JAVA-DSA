@@ -320,6 +320,13 @@ System.out.println(fruits.get(1));
 sc.close();
 
 
+// remove element
+ArrayList<String> subjects = new ArrayList<>();
+subjects.add("Math");
+subjects.add("English");
+subjects.add("Science");
+subjects.remove(1);
+System.out.println(subjects);
 // Adding array and shifting to right
 ArrayList<Integer> nums = new ArrayList<>(); nums.add(0, 10);
 nums.add(1, 20); nums.add(1, 15); System.out.println(nums);
