@@ -367,3 +367,10 @@ String favFruit = sc.nextLine();
 System.out.println(fruits.contains(favFruit));
 }
 sc.close();
+
+
+// isEmpty() Method in ArrayList
+ArrayList<String> fruits = new ArrayList<>();
+System.out.println(fruits.isEmpty()); // Output: true
+fruits.add("Apple");
+System.out.println(fruits.isEmpty());
