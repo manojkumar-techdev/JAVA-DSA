@@ -374,3 +374,11 @@ ArrayList<String> fruits = new ArrayList<>();
 System.out.println(fruits.isEmpty()); // Output: true
 fruits.add("Apple");
 System.out.println(fruits.isEmpty());
+
+
+// ArrayList clear() Method in Java
+ArrayList<String> fruits = new ArrayList<>();
+fruits.add("Apple");
+fruits.add("Banana");
+fruits.add("Orange"); // till here fruits ArrayList have size 3
+fruits.clear()
