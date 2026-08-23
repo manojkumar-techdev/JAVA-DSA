@@ -330,3 +330,19 @@ System.out.println(subjects);
 // Adding array and shifting to right
 ArrayList<Integer> nums = new ArrayList<>(); nums.add(0, 10);
 nums.add(1, 20); nums.add(1, 15); System.out.println(nums);
+
+
+// check if element exists
+// checking if element exists in the list
+ArrayList<String> library = new ArrayList<>();
+library.add("Harry Potter");
+library.add("The Hobbit");
+library.add("1984");
+library.add("To Kill a Mockingbird");
+// Check if books are available
+boolean hasHobbit = library.contains("The Hobbit");
+boolean hasGatsby = library.contains("The Great Gatsby");
+// Print results
+System.out.println("Is 'The Hobbit' available? " + hasHobbit);
+System.out.println("Is 'The Great Gatsby' available? " + has-
+Gatsby);
