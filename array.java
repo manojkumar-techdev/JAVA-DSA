@@ -319,3 +319,7 @@ System.out.println(fruits.get(1));
 // Close the scanner
 sc.close();
 
+
+// Adding array and shifting to right
+ArrayList<Integer> nums = new ArrayList<>(); nums.add(0, 10);
+nums.add(1, 20); nums.add(1, 15); System.out.println(nums);
